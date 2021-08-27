@@ -1,6 +1,6 @@
 $(document).ready(function(){
       var urlList = window.location.pathname.split("/");
-      $("#liste li").each(function(index,element){
+      $(".breadcrumb li").each(function(index,element){
         if(urlList[index].length==0)
         {
           $(this).children().attr("href","/");
